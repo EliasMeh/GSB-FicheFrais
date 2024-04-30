@@ -10,7 +10,7 @@
         @csrf
         <label for="mois">Mois:</label>
         <input type="text" name="mois" id="mois">
-        <label for="annee">Year:</label>
+        <label for="annee">Année:</label>
         <input type="text" name="annee" id="annee">
         <label for="idVisiteur">ID Visiteur:</label>
         <input type="text" name="idVisiteur" id="idVisiteur">

@@ -56,5 +56,6 @@ Route::post('/recherche', [ValiderFicheFrais::class, 'index2'])->name('RecupFF')
 Route::post('/validation', [ValiderFicheFrais::class, 'validation'])->name('validation');
 
 
-Route::get('/comptable/suivreFF',[SuivreFF::class, 'index']);
+Route::get('/visiteurM/suivreFF',[SuivrePaiementFF::class, 'index'])-> name('suivreFF');
 
+ 

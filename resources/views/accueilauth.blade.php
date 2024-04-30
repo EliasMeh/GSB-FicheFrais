@@ -36,14 +36,14 @@
         <p>{{ $bruh }}</p>
         <p>Choisis ton activité : </p>
         <div>
-            @if($bruh->fonction == 'Visiteur') <!-- Check if the function is 'Comptable' -->
+            @if($bruh->fonction == 'Visiteur') 
                 <a href="/visiteurM/renseignerFF" class="btn">Renseigner Fiche Frais</a>
                 <a href="/visiteurM/consulterFF" class="btn">Consulter Fiche Frais</a>
             @endif
             
-            @if($bruh->fonction == 'Comptable') <!-- Check if the function is 'Comptable' -->
-                <a href="/visiteurM/validerFF" class="btn">Valider Fiche de frais</a> <!-- New button -->
-                <a href="/visiteurM/suivreFF" class="btn">Suivre paiement Fiche de frais</a> <!-- New button -->
+            @if($bruh->fonction == 'Comptable') 
+                <a href="/visiteurM/validerFF" class="btn">Valider Fiche de frais</a> 
+                <a href="/visiteurM/suivreFF" class="btn">Suivre paiement Fiche de frais</a> 
             @endif
         </div>
     </div>
